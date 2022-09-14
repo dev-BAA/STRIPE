@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Магазин электроники</title>
+  </head>
+  <body>
+    <div>
+      <div>
+        Артикул - {{ itm_id }}
+      </div>
+      <div>
+        Товар - {{ itm_name }}
+      </div>
+      <div name="Описание">
+        Описание - {{ itm_description }}
+      </div>
+      <div name="Цена">
+        Цена - {{ itm_price }} $
+      </div>
+    </div>
+    <div>
+      <form action="/buy/{{ itm_id }}" method="get">
+        <input type="submit" value="Buy">
+      </form>
+    </div>
+  </body>
+</html>
