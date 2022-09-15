@@ -7,9 +7,12 @@
 ```diff
 git clone https://github.com/dev-BAA/STRIPE.git
 ```
-2. соберите контэйнер
+2. перейдите в каталог проекта
+```diff
+cd STRIPE
+```
+3. соберите контэйнер
 ```diff
 docker-compose up -d --no-deps --build
 ```
-4. 
-5. 
+
