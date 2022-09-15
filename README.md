@@ -5,6 +5,7 @@
 
 1. скачайте репозиторий на сервер
 > git remote add origin https://github.com/dev-BAA/STRIPE.git
+<br />
 > git pull https://github.com/dev-BAA/STRIPE.git master
 2. 
 3. 
