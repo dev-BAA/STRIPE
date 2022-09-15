@@ -3,11 +3,13 @@
 <br />
 Предварительно на сервере должны быть установлены Git, Docker, docker-compose, python3.9
 
-1. скачайте репозиторий на сервер
+1. скачайте проект
 ```diff
-git remote add origin https://github.com/dev-BAA/STRIPE.git
-git pull https://github.com/dev-BAA/STRIPE.git master
+git clone https://github.com/dev-BAA/STRIPE.git
 ```
-2. 
-3. 
+2. соберите контэйнер
+```diff
+docker-compose up -d --no-deps --build
+```
 4. 
+5. 
